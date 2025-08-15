@@ -4,9 +4,70 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>SideBar</title>
 </head>
 <body>
-  
+  <aside class="sidebar">
+    <div class="sidebar__encabezado">
+      <h2 class="sidebar__titulo">Menu</h2>
+    </div>
+
+    <div class="sidebar__navegacion">
+      <ul class="sidebar__lista">
+        <li class="sidebar__item">
+          <a href="#" class="sidebar__enlace sidebar__enlace--activo">
+            <div class="sidebar__contenido">
+              <div class="sidebar__icono"></div>
+              <span class="sidebar__texto">Dashboard</span>
+            </div>
+          </a>
+        </li>
+
+        <li class="sidebar__item">
+          <a href="#" class="sidebar__enlace">
+            <div class="sidebar__contenido">
+              <div class="sidebar__icono"></div>
+              <span class="sidebar__texto">Proyectos</span>
+            </div>
+          </a>
+        </li>
+
+        <li class="sidebar__item">
+          <a href="#" class="sidebar__enlace">
+            <div class="sidebar__contenido">
+              <div class="sidebar__icono"></div>
+              <span class="sidebar__texto">Mensajes</span>
+            </div>
+            <div class="sidebar__notificacion"></div>
+          </a>
+        </li>
+
+        <li class="sidebar__item">
+          <a href="#" class="sidebar__enlace">
+            <div class="sidebar__contenido">
+              <div class="sidebar__icono"></div>
+              <span class="sidebar__texto">Configuración</span>
+            </div>
+          </a>
+        </li>
+
+        <li class="sidebar__item">
+          <a href="#" class="sidebar__enlace">
+            <div class="sidebar__contenido">
+              <div class="sidebar__icono"></div>
+              <span class="sidebar__texto">Reportes</span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="sidebar__pie">
+      <div class="sidebar__usuario">
+        <div class="sidebar__avatar"></div>
+        <span class="sidebar__nombre">Usuario</span>
+      </div>
+    </div>
+  </aside>
 </body>
 </html>
