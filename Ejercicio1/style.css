@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navegacion{
+  max-width: 1200px;
+  padding: 20px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.menu{
+  display: flex;
+  gap: 50px;
+}
+
+.menu__item{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
